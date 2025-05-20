@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
       <div class="task">
         <div>
           <input
-            (click)="task.completed = !task.completed"
+            (change)="task.completed = !task.completed"
             type="checkbox"
             [checked]="task.completed"
           />
